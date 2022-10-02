@@ -11,6 +11,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<global-property doc:name="Global Property" doc:id="997cdf2d-3fb4-48f6-a613-6dd2310873d9" name="env" value="Sandbox" />
 	<flow name="maven-plugin-deploy-demoFlow" doc:id="22b31908-4dac-4b3e-9ffe-9e076a9db3d3" >
 		<http:listener doc:name="Listener" doc:id="444f5f36-e98b-443e-87d0-1651946361de" config-ref="HTTP_Listener_config" path="/maven"/>
-		<set-payload value='#["Welcome to Mule"]' doc:name="Set Payload" doc:id="00ebc3a2-4338-4723-be1f-d860f5c58fa2" />
+		<set-payload value='#["Welcome to Mulesoft Enablement"]' doc:name="Set Payload" doc:id="00ebc3a2-4338-4723-be1f-d860f5c58fa2" />
 	</flow>
 </mule>
