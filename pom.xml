@@ -36,16 +36,16 @@
 					      <username>Lema_Oct2022</username>
 					      <password>Lema_Oct2022</password>
 					      <applicationName>dev-maven-plugin-deploy-demo</applicationName>
-					      <environment>SANDBOX</environment>
+					      <environment>Sandbox</environment>
 					      <region>us-east-1</region>
 					      <workers>1</workers>
 					      <workerType>MICRO</workerType>
 					      <objectStoreV2>true</objectStoreV2>
 					      <properties>
-					      <en>SANDBOX</en>
+					      <en>Sandbox</en>
 					        <http.port>8081</http.port>
-					        <anypoint.platform.client_id>5e8d06e40d384e95a624d68156108f32</anypoint.platform.client_id>
-					        <anypoint.platform.client_secret>F23996e771A54fAA9Be8B4433BEe1c0A</anypoint.platform.client_secret>
+					        <anypoint.platform.client_id>763b23e31b624f66ac5114754e37a76e</anypoint.platform.client_id>
+					        <anypoint.platform.client_secret>A2624Aa010d941889E5B64b87faEe47c</anypoint.platform.client_secret>
 					      </properties>
 					    </cloudHubDeployment>
 				</configuration>
