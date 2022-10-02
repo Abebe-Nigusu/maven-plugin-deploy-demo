@@ -33,10 +33,10 @@
 						<cloudHubDeployment>
 					      <uri>https://anypoint.mulesoft.com</uri>
 					      <muleVersion>4.4.0</muleVersion>
-					      <username>Abe_MuleSoft-24</username>
-					      <password>EGSMulesoft_2023</password>
+					      <username>Lema_Oct2022</username>
+					      <password>Lema_Oct2022</password>
 					      <applicationName>dev-maven-plugin-deploy-demo</applicationName>
-					      <environment>Sandbox</environment>
+					      <environment>dev</environment>
 					      <region>us-east-1</region>
 					      <workers>1</workers>
 					      <workerType>MICRO</workerType>
