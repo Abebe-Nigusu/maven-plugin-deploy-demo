@@ -30,7 +30,7 @@
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-						<cloudHubDeployment>
+						<!-- <cloudHubDeployment>
 					      <uri>https://anypoint.mulesoft.com</uri>
 					      <muleVersion>4.4.0</muleVersion>
 					      <username>Lema_Oct2022</username>
@@ -43,8 +43,8 @@
 					      <objectStoreV2>true</objectStoreV2>
 					      <properties>
 					        <http.port>8081</http.port>
-					      </properties>
-					    </cloudHubDeployment>
+					      </properties> -->
+<!-- 					    </cloudHubDeployment> -->
 				</configuration>
 			</plugin>
 		</plugins>

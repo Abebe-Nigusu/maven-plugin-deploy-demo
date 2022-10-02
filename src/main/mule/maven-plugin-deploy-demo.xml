@@ -7,10 +7,10 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="4078c89e-65e3-4550-b7a1-5d74d055fac1" >
 		<http:listener-connection host="0.0.0.0" port="${http.port}" />
 	</http:listener-config>
-	<configuration-properties doc:name="Configuration properties" doc:id="cda0dc1f-ea03-4c54-b642-38952d612e76" file="dev-properties.yaml" />
-	<global-property doc:name="Global Property" doc:id="997cdf2d-3fb4-48f6-a613-6dd2310873d9" name="env" value="Sandbox" />
+	<configuration-properties doc:name="Configuration properties" doc:id="cda0dc1f-ea03-4c54-b642-38952d612e76" file="${mule.env}-properties.yaml" />
+	<global-property doc:name="Global Property" doc:id="997cdf2d-3fb4-48f6-a613-6dd2310873d9" name="mule.env" value="dev" />
 	<flow name="maven-plugin-deploy-demoFlow" doc:id="22b31908-4dac-4b3e-9ffe-9e076a9db3d3" >
 		<http:listener doc:name="Listener" doc:id="444f5f36-e98b-443e-87d0-1651946361de" config-ref="HTTP_Listener_config" path="/maven"/>
-		<set-payload value='#["Welcome to Mulesoft Enablement"]' doc:name="Set Payload" doc:id="00ebc3a2-4338-4723-be1f-d860f5c58fa2" />
+		<set-payload value='#["Welcome to Mulesoft Enablement Mr Abebe! Wish you all the best!"]' doc:name="Set Payload" doc:id="00ebc3a2-4338-4723-be1f-d860f5c58fa2" />
 	</flow>
 </mule>
