@@ -6,11 +6,10 @@
 name: testazurepipeline_$(Date:yyyyMMdd)$(Rev:.r)
 trigger:
 - Main
-jobs:
-  -job: ActivityonWindows
-  pool:
+
+pool:
     name: default
-  steps:
+steps:
   - task: Maven@3
     inputs:
       mavenPomFile: 'pom.xml'
