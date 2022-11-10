@@ -33,8 +33,8 @@
 						<cloudHubDeployment>
 						      <uri>https://anypoint.mulesoft.com</uri>
 						      <muleVersion>4.4.0</muleVersion>
-						      <username>Lema_Oct2022</username>
-						      <password>Lema_Oct2022</password>
+						      <username>Lema_Nov2022</username>
+						      <password>Lema_Nov2022</password>
 						      <applicationName>maven-plugin-deploy-demo</applicationName>
 						      <environment>Sandbox</environment>
 						      <region>us-east-1</region>
