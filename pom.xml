@@ -32,18 +32,15 @@
 				<configuration>
 						<cloudHubDeployment>
 						      <uri>https://anypoint.mulesoft.com</uri>
-						      <muleVersion>4.4.0</muleVersion>
-						      <username>Lema_Nov2022</username>
-						      <password>Lema_Nov2022</password>
-						      <applicationName>maven-plugin-deploy-demo</applicationName>
-						      <environment>Sandbox</environment>
-						      <region>us-east-1</region>
-						      <workers>1</workers>
-						      <workerType>MICRO</workerType>
+						      <muleVersion>${mule.version}</muleVersion>
+						      <username>${anypoint.username}</username>
+						      <password>${anypoint.password}</password>
+						      <applicationName>${appname}</applicationName>
+						      <environment>${env}</environment>
+						      <workers>${workers}</workers>
+						      <workerType>${vCore}</workerType>
 						      <objectStoreV2>true</objectStoreV2>
-						      <properties>
-						      <http.port>8081</http.port>
-						      </properties>
+						     
 					    </cloudHubDeployment>
 				</configuration>
 			</plugin>
